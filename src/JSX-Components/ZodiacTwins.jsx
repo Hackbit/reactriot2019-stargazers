@@ -17,6 +17,7 @@ const ZodiacTwins = props => {
             <img className="celebs" src={props.personalityImage} alt="..." />
             <p>{props.personalityName}</p>
             </div>
+            
         </div>
    
     );
