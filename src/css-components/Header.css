@@ -1,0 +1,7 @@
+.Header, .Nav{
+    display: flex;
+    justify-content: center;
+}
+.Nav>p{
+    margin-right: 20px;
+}

@@ -1,12 +1,11 @@
 import React from 'react';
-import Header from './LandingPage';
+import Header from './Header';
 import Data from './Data';
-
-
+import '../css-components/MainPage.css'
 
 function MainPage() {
     return (
-        <div>
+        <div className="MainPage">
             <Header />
             <Data/>
         </div>

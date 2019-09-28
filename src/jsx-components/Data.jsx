@@ -47,7 +47,7 @@ class Data extends Component {
                 <div class="firefly"></div>
                 <div class="firefly"></div>
                 {(this.state.isData) &&
-                    <div ClassNamae="Output">
+                    <div className="Output">
                         <h3>Horoscope for {this.state.sign}</h3>
                         Current Date: {this.state.json.current_date}
                         <p>{this.state.json.description}</p>
