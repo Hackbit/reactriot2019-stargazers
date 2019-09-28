@@ -1,7 +1,7 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-import ZodiacBook from './jsx-components/zodiacBooks/ZodiacBook';
+// import ZodiacBook from './jsx-components/zodiacBooks/ZodiacBook';
+import AllZodiacBooks from './jsx-components/zodiacBooks/AllZodiacBooks';
 
 
 export default function App() {
@@ -10,11 +10,8 @@ export default function App() {
 
       <h1>HELLO WORLD</h1>
 
-      <ZodiacBook
-        name="Aries"
-        URL='aquarius-book-cover.jpg'
-        color="red"
-      />
+      <AllZodiacBooks />
+
     </div>
   );
 }
