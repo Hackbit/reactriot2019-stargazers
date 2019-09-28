@@ -1,21 +1,24 @@
 import React from 'react';
+import '../css-components/ZodiacTwins.css';
+
+
 
 const ZodiacTwins = props => {
     return (
-      <>
-        <div>
+    
+        <div className="zodiac-stars">
+
             <div className="main-heading">
             <h1>{props.zodiacName}</h1>
-            <p>{props.date}</p>
+            <h6>{props.date}</h6>
             </div>
-            <img src={props.personalityImage} alt="..." />
+
+            <div>
+            <img className="celebs" src={props.personalityImage} alt="..." />
             <p>{props.personalityName}</p>
-            
+            </div>
         </div>
-
-
-
-      </>
+   
     );
   };
   export default ZodiacTwins;

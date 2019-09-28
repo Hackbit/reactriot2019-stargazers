@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ZodiacTwins from './JSX-Components/ZodiacTwins';
 import Personalities from './JSX-Components/Personalities';
 
 function App() {
