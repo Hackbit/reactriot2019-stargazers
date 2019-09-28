@@ -5,9 +5,7 @@ import Personalities from './JSX-Components/Personalities';
 function App() {
   return (
     <div className="App">
-     
       <Personalities />
-
     </div>
   );
 }
