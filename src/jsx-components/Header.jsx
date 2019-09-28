@@ -1,13 +1,18 @@
-import React from 'react';
-import '../css-components/Header.css'
-function Header() {
-    return (
-        <div className="Nav">
-            <p>All About Start Signs</p>
-            <p>Your Star Twin</p>
-            <p>Book for your Star Sign</p>
+import React, { Component } from 'react';
+import '../css-components/Header.css';
+import { Link } from 'react-router-dom';
+
+
+class Header extends Component {
+    render() {
+        return (
+            <div className="Nav">
+            <Link to="/404"><p>All About Start Signs</p></Link>
+            <Link to="/404"><p>Your Star Twin</p></Link>
+            <Link to="/404"><p>Book for your Star Sign</p></Link>
         </div>
-    );
+        );
+    }
 }
 
 export default Header;

@@ -44,7 +44,7 @@ input {
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
-    opacity: 0; 
+    opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
@@ -67,7 +67,7 @@ input {
     position: absolute;
     width: 100%;
     height: 100%;
-    background:#4d4341;
+    background: #4d4341;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -92,12 +92,11 @@ input {
 .Output {
     text-align: center;
     width: 70%;
-    margin: 0px auto;
+    margin-bottom: 80px;
     padding: 30px;
     color: white;
+    word-spacing: 3px;
 }
-
-
 
 .wrapper {
     display: flex;
@@ -1482,4 +1481,48 @@ input {
         opacity: 1;
         box-shadow: 0 0 2vw 0.4vw yellow;
     }
+}
+
+/* typewriter effect */
+
+.line-1 {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 20px;
+    ;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+h4 {
+    margin: 0;
 }

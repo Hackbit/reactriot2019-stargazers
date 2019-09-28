@@ -35,14 +35,12 @@ body {
     line-height: 90px;
     letter-spacing: -8px;
     filter: drop-shadow(2px 4px 2px black);
-
-
 }
 
 .title>p {
     margin: 0;
-
 }
+
 
 .subtitle {
     display: block;

@@ -48,10 +48,10 @@ class Data extends Component {
                 <div class="firefly"></div>
                 {(this.state.isData) &&
                     <div className="Output">
-                        <h3>Horoscope for {this.state.sign}</h3>
+                        <h1>Horoscope for {this.state.sign}</h1>
                         Current Date: {this.state.json.current_date}
-                        <p>{this.state.json.description}</p>
-                        <h4>{this.state.json.mood}</h4>
+                        <p class="line-1 anim-typewriter">{this.state.json.description}</p>
+                        <h4>Mood: {this.state.json.mood}</h4>
                     </div>
                 }
                 <input type="text" placeholder="Enter your Sign Here" value={this.state.value} onChange={this.handleChange} />

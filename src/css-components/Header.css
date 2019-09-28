@@ -1,7 +1,15 @@
-.Header, .Nav{
+.Header, .Nav {
     display: flex;
     justify-content: center;
 }
-.Nav>p{
+
+.Nav p {
     margin-right: 20px;
+    padding: 5px;
+    color: white;
+
+}
+
+.Nav p:hover{
+    border-bottom: 1px solid white;
 }
