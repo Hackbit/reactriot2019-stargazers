@@ -1,0 +1,28 @@
+.PageNotFound {
+    font-size: 310px;
+    color: #dedada82;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    filter: drop-shadow(2px 4px 6px black);
+    letter-spacing: -10px;
+}
+
+.Error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.Error>p, .Error>a {
+    margin: 0;
+    color: #dedada82;
+    font-size: 20px;
+}
+.Error>a:hover{
+    font-size: 23px;
+    transition: 0.2s ease-in-out;
+
+}
