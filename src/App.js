@@ -1,27 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import ZodiacBook from './jsx-components/zodiacBooks/ZodiacBook';
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Made by Stargazers</p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h1>HELLO WORLD</h1>
+
+      <ZodiacBook
+        name="Aries"
+        URL='aquarius-book-cover.jpg'
+        color="red"
+      />
     </div>
   );
 }
-
-export default App;
