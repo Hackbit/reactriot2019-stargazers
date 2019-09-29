@@ -12,7 +12,6 @@ function ZodiacSignTemplete(props) {
                 <p>{props.signDetails}</p>
             </div>
         </div>
-
     );
 }
 ZodiacSignTemplete.propTypes = {
@@ -21,6 +20,4 @@ ZodiacSignTemplete.propTypes = {
     dateRange: PropTypes.string,
     signDetails:PropTypes.string,
 }
-
-
 export default ZodiacSignTemplete;

@@ -6,7 +6,6 @@ import Sound from '../assets/music.mp3';
 
 function MainPage(props) {
     let audio = new Audio(Sound)
-
     return (
         <div onLoad={audio.play()} className="MainPage">
             <Header />

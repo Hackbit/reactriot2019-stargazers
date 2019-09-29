@@ -13,10 +13,6 @@ import MainPage from './jsx-components/MainPage';
 import PageNotFound from './jsx-components/404';
 import ZodiacSigns from './jsx-components/ZodiacSigns';
 
-
-
-
-
 class App extends Component {
   render() {
     return (

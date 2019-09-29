@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ZodiacSignTemplete from './ZodiacSignTemplete';
 import Header from '../jsx-components/Header';
-import '../css-components/ZodiacSigns.css'
+import '../css-components/ZodiacSigns.css';
 class ZodiacSigns extends Component {
     render() {
         return (
@@ -20,7 +20,6 @@ class ZodiacSigns extends Component {
                         dateRange="April 20 - May 20"
                         signDetails="A Taurus is the most stubborn of them all. They know what they are doing. They have good work ethics and love to indulge in finer things of life. They usually don’t open up too well but they do expect loyalty from the ones close to them. So, consider yourself lucky if they let you see a different part of them because you must be really special."
                     />
-
                     <ZodiacSignTemplete
                         imgURL="https://cdn.pixabay.com/photo/2017/07/28/23/22/gemini-2550197_960_720.png"
                         signName="Gemini"
@@ -84,7 +83,6 @@ class ZodiacSigns extends Component {
                         dateRange="February 19 - March 20"
                         signDetails="They are imaginative and would love live in a fantastical world. This often makes them daydream and their approach towards life may seem impractical. No matter what, they have a lovable nature and never ever leave the side of their loved ones."
                     />
-
                 </div>
             </div>
         );
