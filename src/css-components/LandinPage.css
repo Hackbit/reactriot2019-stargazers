@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
 html {
     width: 100%;
     height: 100%;
@@ -11,7 +12,7 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     background-repeat:no-repeat; 
 }
 
@@ -54,6 +55,7 @@ body {
     font-size: 15px;
     width: 76%;
     margin: auto;
+    font-weight: 600;
 }
 
 a {
