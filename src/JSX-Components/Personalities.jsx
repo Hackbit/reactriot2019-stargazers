@@ -104,7 +104,7 @@ const Personalities = () => {
         <h1 className="heading">Cancer</h1>
         <img
           className="logo"
-          src="https://tarot-astrology.co.uk/wp-content/uploads/2016/07/Inspirational-Quotes-for-Cancer-Zodiac-Sign.jpg"
+          src="https://cdn3.iconfinder.com/data/icons/zodiac-1-1/48/19-512.png"
           alt=""
         />
       </div>
@@ -135,7 +135,7 @@ const Personalities = () => {
         <h1 className="heading">Leo</h1>
         <img
           className="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKndHbXWm3zNZCKdJ1g4hWSg1unmm84_6Ig7ZQ-6Kgsp9LaWzWQ"
+          src="https://cdn3.iconfinder.com/data/icons/zodiac-1-1/48/21-512.png"
           alt=""
         />
       </div>
@@ -165,7 +165,7 @@ const Personalities = () => {
         <h1 className="heading">Virgo</h1>
         <img
           className="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82EvXE1VCyIXqBTdpeA2Tjz0Bn70mUKS2n76GiiP6xC24N579Jw"
+          src="https://cdn3.iconfinder.com/data/icons/zodiac-1-1/48/21-512.png"
           alt=""
         />
       </div>
@@ -225,7 +225,7 @@ const Personalities = () => {
         <h1 className="heading">Scorpio</h1>
         <img
           className="logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGVjlsVxa_7n9Se-kTrY0_R4Lm8UpO-uCk0TQSIg0HEBaNXmK"
+          src="https://cdn0.iconfinder.com/data/icons/zodiac-signs-vol-2/100/Artboard_20-512.png"
           alt=""
         />
       </div>
@@ -256,7 +256,7 @@ const Personalities = () => {
         <h1 className="heading">Sagittarius</h1>
         <img
           className="logo"
-          src="https://icons-for-free.com/iconfiles/png/512/horoscope+sagittarius+shape+sign+zodiac+icon-1320085957614268876.png"
+          src="https://cdn0.iconfinder.com/data/icons/health-science-1/24/sagittarius-256.png"
           alt=""
         />
       </div>
