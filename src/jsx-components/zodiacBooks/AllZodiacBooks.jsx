@@ -17,7 +17,7 @@ export default function AllZodiacBooks() {
     return (
         <div className="AllZodiacBooks">
 
-            {/* <Header /> */}
+            <Header />
 
             <div className="books">
 
