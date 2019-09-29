@@ -3,7 +3,7 @@ import ZodiacTwins from "./ZodiacTwins";
 
 const Personalities = () => {
   return (
-    <>
+    <div className="container">
     
       <div>
         <div className="set">
@@ -17,6 +17,7 @@ const Personalities = () => {
         <p className="date">(March21- April19)</p>
       </div>
       {/* Aries Section */}
+      
       <ZodiacTwins
         personalityName="Robert Dowry JR."
         personalityImage="https://media.gq.com/photos/5582d37609f0bee564401437/master/pass/entertainment-2013-05-robert-downey-jr-robert-downey-jr-96.jpg"
@@ -37,6 +38,7 @@ const Personalities = () => {
         personalityName="Celine Dion"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ip6A7sDddPY3sXPQQsSBeTIRz36wuapQMqN9EPLzdmrVmQ24Pg"
       />
+      
 
       {/* Taurus Section */}
       <div className="set">
@@ -373,7 +375,7 @@ const Personalities = () => {
         personalityName="Alex Kingston"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6kuA3e7haIWNs8xZxRwmtGKvspiAvE1NPMV43xpvlTiIUBj70Q"
       />
-    </>
+    </div>
   );
 };
 

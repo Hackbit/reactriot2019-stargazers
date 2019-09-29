@@ -1,4 +1,4 @@
-body {
+.container {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -55,8 +55,8 @@ code {
 
 .card {
     position: relative;
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     background: #fff;
     margin: 0 auto;
     border-radius: 4px;
