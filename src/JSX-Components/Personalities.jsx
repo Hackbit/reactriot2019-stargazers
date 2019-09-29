@@ -4,11 +4,12 @@ import ZodiacTwins from "./ZodiacTwins";
 const Personalities = () => {
   return (
     <>
+      {/* Aries Section */}
     <div>
         <h1>Aries</h1>
         <img className="logo" src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/astrology---aries-zodiac-symbol-3348-14525-300x300.png" alt=""/>
     </div>
-      {/* Aries Section */}
+      
       <ZodiacTwins
         date="(March21- April19)"
         personalityName="Robert Dowry JR."
