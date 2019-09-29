@@ -4,10 +4,10 @@ import ZodiacTwins from "./ZodiacTwins";
 const Personalities = () => {
   return (
     <>
-    <div>
+      <div>
         <h1>Aries</h1>
-        <img className="logo" src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/astrology---aries-zodiac-symbol-3348-14525-300x300.png" alt=""/>
-    </div>
+        <img className="logo" src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/astrology---aries-zodiac-symbol-3348-14525-300x300.png" alt="" />
+      </div>
       {/* Aries Section */}
       <ZodiacTwins
         date="(March21- April19)"
@@ -31,10 +31,10 @@ const Personalities = () => {
       />
 
       {/* Taurus Section */}
-    <div>
+      <div>
         <h1>Taurus</h1>
-        <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taurus.svg/225px-Taurus.svg.png" alt=""/>
-    </div>
+        <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taurus.svg/225px-Taurus.svg.png" alt="" />
+      </div>
       <ZodiacTwins
         date="(April 20 - May 20)"
         personalityName="Tina Fay"
@@ -57,10 +57,10 @@ const Personalities = () => {
       />
 
       {/* Gemini Section */}
-    <div>
+      <div>
         <h1>Gemini</h1>
         <img className="logo" src="https://png.pngtree.com/svg/20160317/gemini_591044.png" alt="" />
-    </div>
+      </div>
       <ZodiacTwins
         date="(May 21 - June 20)"
         personalityName="Angelina Jolie"
@@ -84,10 +84,10 @@ const Personalities = () => {
 
       {/* Cancer Section */}
 
-    <div>
+      <div>
         <h1>Cancer</h1>
-        <img className="logo"src="https://tarot-astrology.co.uk/wp-content/uploads/2016/07/Inspirational-Quotes-for-Cancer-Zodiac-Sign.jpg" alt="" />
-    </div>
+        <img className="logo" src="https://tarot-astrology.co.uk/wp-content/uploads/2016/07/Inspirational-Quotes-for-Cancer-Zodiac-Sign.jpg" alt="" />
+      </div>
       <ZodiacTwins
         date="(June 21 - July 22)"
         personalityName="Tom Cruise"
@@ -110,10 +110,10 @@ const Personalities = () => {
       />
 
       {/* Leo Section  */}
-    <div>
-       <h1>Leo</h1> 
-       <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKndHbXWm3zNZCKdJ1g4hWSg1unmm84_6Ig7ZQ-6Kgsp9LaWzWQ" alt="" />
-    </div>
+      <div>
+        <h1>Leo</h1>
+        <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKndHbXWm3zNZCKdJ1g4hWSg1unmm84_6Ig7ZQ-6Kgsp9LaWzWQ" alt="" />
+      </div>
       <ZodiacTwins
         date="July 23 - August 22"
         personalityName="Barack Obama"
@@ -137,8 +137,8 @@ const Personalities = () => {
 
       {/* Virgo Section */}
       <div>
-          <h1>Virgo</h1>
-          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82EvXE1VCyIXqBTdpeA2Tjz0Bn70mUKS2n76GiiP6xC24N579Jw" alt="" />
+        <h1>Virgo</h1>
+        <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82EvXE1VCyIXqBTdpeA2Tjz0Bn70mUKS2n76GiiP6xC24N579Jw" alt="" />
       </div>
       <ZodiacTwins
         date="(August 23 - September 22)"
@@ -162,10 +162,10 @@ const Personalities = () => {
       />
 
       {/* Libra Section */}
-    <div>
+      <div>
         <h1>Libra</h1>
         <img className="logo" src="https://cdn4.iconfinder.com/data/icons/horoscope-v2-outline/24/horoscope-horoscopes-sign-zodiac-stars-astrology-libra-512.png" alt="" />
-    </div>
+      </div>
       <ZodiacTwins
         date="(September 23 - October 22)"
         personalityName="Imran Khan"
@@ -189,8 +189,8 @@ const Personalities = () => {
 
       {/* Scorpio Section */}
       <div>
-          <h1>Scorpio</h1>
-          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGVjlsVxa_7n9Se-kTrY0_R4Lm8UpO-uCk0TQSIg0HEBaNXmK" alt="" />
+        <h1>Scorpio</h1>
+        <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGVjlsVxa_7n9Se-kTrY0_R4Lm8UpO-uCk0TQSIg0HEBaNXmK" alt="" />
       </div>
 
       <ZodiacTwins
@@ -215,10 +215,10 @@ const Personalities = () => {
       />
 
       {/* Sagittarius Section */}
-    <div>
+      <div>
         <h1>Sagittarius</h1>
         <img className="logo" src="https://icons-for-free.com/iconfiles/png/512/horoscope+sagittarius+shape+sign+zodiac+icon-1320085957614268876.png" alt="" />
-    </div>
+      </div>
       <ZodiacTwins
         date="(November 22 - December 21)"
         personalityName="Taylor Swift"
@@ -241,10 +241,10 @@ const Personalities = () => {
       />
 
       {/* Capricorn Section */}
-    <div>
+      <div>
         <h1>Capricorn</h1>
         <img className="logo" src="https://icons-for-free.com/iconfiles/png/512/capricorn+horoscope+sign+zodiac+icon-1320085955943875975.png" alt="" />
-    </div>
+      </div>
       <ZodiacTwins
         date="(December 22 - January 19)"
         personalityName="LeBorn James"
@@ -268,10 +268,10 @@ const Personalities = () => {
 
       {/* Aquarius Section */}
 
-    <div>
+      <div>
         <h1>Aquarius</h1>
-        <img className="logo" src="https://cdn0.iconfinder.com/data/icons/zodiac-signs-vol-2/100/Artboard_22-512.png" alt=""/>
-    </div>
+        <img className="logo" src="https://cdn0.iconfinder.com/data/icons/zodiac-signs-vol-2/100/Artboard_22-512.png" alt="" />
+      </div>
       <ZodiacTwins
         date="(January 20 - February 18)"
         personalityName="Christano Ronaldo"
@@ -295,10 +295,10 @@ const Personalities = () => {
 
       {/* Pisces Section */}
 
-    <div>
+      <div>
         <h1>Pisces</h1>
         <img className="logo" src="https://i.pinimg.com/originals/06/fa/4c/06fa4c996c43e3e341ad3aba6a20b004.jpg" alt="" />
-    </div>
+      </div>
       <ZodiacTwins
         date="(February 19 - March 20)"
         personalityName="Rihana"
