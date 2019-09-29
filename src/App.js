@@ -13,7 +13,7 @@ import LandingPage from './jsx-components/LandingPage';
 import MainPage from './jsx-components/MainPage';
 import PageNotFound from './jsx-components/404';
 import ZodiacSigns from './jsx-components/ZodiacSigns';
-import AllZodiacBooks from './jsx-components/AllZodiacBooks';
+import AllZodiacBooks from './jsx-components/zodiacBooks/AllZodiacBooks';
 import ZodiacTwins from './jsx-components/ZodiacTwins';
 
 class App extends Component {
