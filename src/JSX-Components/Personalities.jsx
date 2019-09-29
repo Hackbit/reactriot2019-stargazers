@@ -14,7 +14,7 @@ const Personalities = () => {
           alt=""
         />
         </div>
-        <p className="date">March21- April19</p>
+        <p className="date">(March21- April19)</p>
       </div>
       {/* Aries Section */}
       <ZodiacTwins
@@ -47,7 +47,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">April 20 - May 20</p>
+      <p className="date">(April 20 - May 20)</p>
       <ZodiacTwins
         personalityName="Tina Fay"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyjw4sN86CIchJ-x4xwe1JxJbrrWUSYY24_zziHqcyW9pdNTQR"
@@ -76,8 +76,8 @@ const Personalities = () => {
           src="https://png.pngtree.com/svg/20160317/gemini_591044.png"
           alt=""
         />
-        <p className="date">May 21 - June 20</p>
       </div>
+      <p className="date">(May 21 - June 20)</p>
       <ZodiacTwins
         personalityName="Angelina Jolie"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUR_SRNrW0mcBYEuLe1kgS1e24pQ6NTmmvL5l7C9O-f2cYnRS"
@@ -108,7 +108,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">June 21 - July 22</p>
+      <p className="date">(June 21 - July 22)</p>
       <ZodiacTwins
         
         personalityName="Tom Cruise"
@@ -139,7 +139,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">July 23 - August 22</p>
+      <p className="date">(July 23 - August 22)</p>
       <ZodiacTwins
         personalityName="Barack Obama"
         personalityImage="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg"
@@ -169,7 +169,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">August 23 - September 22</p>
+      <p className="date">(August 23 - September 22)</p>
       <ZodiacTwins
         personalityName="Micheal Jackson"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhHss2FXs5J9_e6M-id8huJvPrzidkaxtPr6uwsGDcvLpacp7ow"
@@ -199,7 +199,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">September 23 - October 22</p>
+      <p className="date">(September 23 - October 22)</p>
       <ZodiacTwins
         personalityName="Imran Khan"
         personalityImage="https://pbs.twimg.com/profile_images/1162267138842755075/zxLifsgg_400x400.jpg"
@@ -229,7 +229,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">October 23 - November 21</p>
+      <p className="date">(October 23 - November 21)</p>
 
       <ZodiacTwins
         personalityName="Leonardo DiCarpio"
