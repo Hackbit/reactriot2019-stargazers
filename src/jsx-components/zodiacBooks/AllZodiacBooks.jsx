@@ -1,4 +1,4 @@
-import React from 'react';
+import React from './node_modules/react';
 import './../../css-components/AllZodiacBooks.css';
 import AriesBook from './AriesBook';
 import TaurusBook from './TaurusBook';
@@ -12,7 +12,7 @@ import SagittariusBook from './SagittariusBook';
 import CapricornBook from './CapricornBook';
 import AquariusBook from './AquariusBook';
 import PiscesBook from './PiscesBook';
-import Header from './../Header';
+import Header from '../Header';
 
 export default function AllZodiacBooks() {
     return (

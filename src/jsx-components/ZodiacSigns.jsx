@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from './node_modules/react';
 import ZodiacSignTemplete from './ZodiacSignTemplete';
-import Header from '../jsx-components/Header';
+import Header from './Header';
 import '../css-components/ZodiacSigns.css';
 class ZodiacSigns extends Component {
     render() {

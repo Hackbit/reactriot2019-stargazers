@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from "./node_modules/react";
 import "../css-components/Data.css";
-import ReactLoading from "react-loading";
+import ReactLoading from "./node_modules/react-loading";
 
 class Data extends Component {
     constructor(props) {
