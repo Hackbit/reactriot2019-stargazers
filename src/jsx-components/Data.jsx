@@ -38,21 +38,21 @@ class Data extends Component {
     render() {
         return (
             <div className="wrapper">
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
-                <div class="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
+                <div className="firefly"></div>
 
                 {this.state.isData ? (
                     <div className="GettingData">
@@ -66,7 +66,7 @@ class Data extends Component {
                     </div> ) : (
                         <div className="Condition">
                             <input
-                                autofocus
+                                autoFocus
                                 type="text"
                                 placeholder="Enter your Sign Here"
                                 value={this.state.sign}
