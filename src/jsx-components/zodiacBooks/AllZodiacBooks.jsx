@@ -1,16 +1,17 @@
 import React from 'react';
-import AriesBook from './jsx-components/zodiacBooks/AriesBook';
-import TaurusBook from './jsx-components/zodiacBooks/TaurusBook';
-import GeminiBook from './jsx-components/zodiacBooks/GeminiBook';
-import CancerBook from './jsx-components/zodiacBooks/CancerBook';
-import LeoBook from './jsx-components/zodiacBooks/LeoBook';
-import VirgoBook from './jsx-components/zodiacBooks/VirgoBook';
-import LibraBook from './jsx-components/zodiacBooks/LibraBook';
-import ScorpioBook from './jsx-components/zodiacBooks/ScorpioBook';
-import SagittariusBook from './jsx-components/zodiacBooks/SagittariusBook';
-import CapricornBook from './jsx-components/zodiacBooks/CapricornBook';
-import AquariusBook from './jsx-components/zodiacBooks/AquariusBook';
-import PiscesBook from './jsx-components/zodiacBooks/PiscesBook';
+import './../../css-components/AllZodiacBooks.css';
+import AriesBook from './AriesBook';
+import TaurusBook from './TaurusBook';
+import GeminiBook from './GeminiBook';
+import CancerBook from './CancerBook';
+import LeoBook from './LeoBook';
+import VirgoBook from './VirgoBook';
+import LibraBook from './LibraBook';
+import ScorpioBook from './ScorpioBook';
+import SagittariusBook from './SagittariusBook';
+import CapricornBook from './CapricornBook';
+import AquariusBook from './AquariusBook';
+import PiscesBook from './PiscesBook';
 
 export default function AllZodiacBooks() {
     return (
