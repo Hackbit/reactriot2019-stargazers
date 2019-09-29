@@ -1,9 +1,10 @@
 .mask>p {
     margin: auto;
     font-size: 18px;
-    
+    line-height: 1.4;
 }
-.mask{
+
+.mask {
     margin-left: 60px;
     color: white;
 }
@@ -12,16 +13,25 @@
     width: 300px;
     border-radius: 10px;
 }
-.sign-container>img:hover{
+
+.sign-container>img:hover {
     /* filter: sepia(1); */
     filter: drop-shadow(0px 1px 14px white);
     transition-duration: 0.2 sec;
-
 }
-.sign-container{
+
+.sign-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    margin: 100px;
+    padding: 2em;
+}
+
+@media (max-width: 800px) {
+    .sign-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2em;
+        
+    }
 }

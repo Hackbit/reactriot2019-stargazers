@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#hackbit-vote-widget{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+.hb-vote-widget {
+
+  background: #533b2c;
+}
