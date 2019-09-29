@@ -1,20 +1,27 @@
 import React from "react";
-import ZodiacTwins from "./ZodiacTwins";
+import ZodiacTwins from "../JSX-Components/ZodiacTwins";
 
 const Personalities = () => {
   return (
     <>
+    
+      <div>
+        <div className="set">
+        <h1 className="heading">Aries</h1>
+        <img
+          className="logo"
+          src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/astrology---aries-zodiac-symbol-3348-14525-300x300.png"
+          alt=""
+        />
+        </div>
+        <p className="date">March21- April19</p>
+      </div>
       {/* Aries Section */}
-    <div>
-        <h1>Aries</h1>
-        <img className="logo" src="https://dejpknyizje2n.cloudfront.net/svgcustom/clipart/preview/astrology---aries-zodiac-symbol-3348-14525-300x300.png" alt=""/>
-    </div>
-      
       <ZodiacTwins
-        date="(March21- April19)"
         personalityName="Robert Dowry JR."
         personalityImage="https://media.gq.com/photos/5582d37609f0bee564401437/master/pass/entertainment-2013-05-robert-downey-jr-robert-downey-jr-96.jpg"
       />
+      
 
       <ZodiacTwins
         personalityName="Lady Gaga"
@@ -32,12 +39,16 @@ const Personalities = () => {
       />
 
       {/* Taurus Section */}
-    <div>
-        <h1>Taurus</h1>
-        <img className="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taurus.svg/225px-Taurus.svg.png" alt=""/>
-    </div>
+      <div className="set">
+        <h1 className="heading">Taurus</h1>
+        <img
+          className="logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taurus.svg/225px-Taurus.svg.png"
+          alt=""
+        />
+      </div>
+      <p className="date">April 20 - May 20</p>
       <ZodiacTwins
-        date="(April 20 - May 20)"
         personalityName="Tina Fay"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyjw4sN86CIchJ-x4xwe1JxJbrrWUSYY24_zziHqcyW9pdNTQR"
       />
@@ -58,12 +69,16 @@ const Personalities = () => {
       />
 
       {/* Gemini Section */}
-    <div>
-        <h1>Gemini</h1>
-        <img className="logo" src="https://png.pngtree.com/svg/20160317/gemini_591044.png" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Gemini</h1>
+        <img
+          className="logo"
+          src="https://png.pngtree.com/svg/20160317/gemini_591044.png"
+          alt=""
+        />
+        <p className="date">May 21 - June 20</p>
+      </div>
       <ZodiacTwins
-        date="(May 21 - June 20)"
         personalityName="Angelina Jolie"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUR_SRNrW0mcBYEuLe1kgS1e24pQ6NTmmvL5l7C9O-f2cYnRS"
       />
@@ -85,12 +100,17 @@ const Personalities = () => {
 
       {/* Cancer Section */}
 
-    <div>
-        <h1>Cancer</h1>
-        <img className="logo"src="https://tarot-astrology.co.uk/wp-content/uploads/2016/07/Inspirational-Quotes-for-Cancer-Zodiac-Sign.jpg" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Cancer</h1>
+        <img
+          className="logo"
+          src="https://tarot-astrology.co.uk/wp-content/uploads/2016/07/Inspirational-Quotes-for-Cancer-Zodiac-Sign.jpg"
+          alt=""
+        />
+      </div>
+      <p className="date">June 21 - July 22</p>
       <ZodiacTwins
-        date="(June 21 - July 22)"
+        
         personalityName="Tom Cruise"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqsZ5vzXrkasR8Gzlx98Byx6qygT25Wk5iv9Q_96Dzhju_SyTE"
       />
@@ -111,12 +131,16 @@ const Personalities = () => {
       />
 
       {/* Leo Section  */}
-    <div>
-       <h1>Leo</h1> 
-       <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKndHbXWm3zNZCKdJ1g4hWSg1unmm84_6Ig7ZQ-6Kgsp9LaWzWQ" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Leo</h1>
+        <img
+          className="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKndHbXWm3zNZCKdJ1g4hWSg1unmm84_6Ig7ZQ-6Kgsp9LaWzWQ"
+          alt=""
+        />
+      </div>
+      <p className="date">July 23 - August 22</p>
       <ZodiacTwins
-        date="July 23 - August 22"
         personalityName="Barack Obama"
         personalityImage="https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzg5ODI4MTEw/barack-obama-12782369-1-402.jpg"
       />
@@ -137,12 +161,16 @@ const Personalities = () => {
       />
 
       {/* Virgo Section */}
-      <div>
-          <h1>Virgo</h1>
-          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82EvXE1VCyIXqBTdpeA2Tjz0Bn70mUKS2n76GiiP6xC24N579Jw" alt="" />
+      <div className="set">
+        <h1 className="heading">Virgo</h1>
+        <img
+          className="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82EvXE1VCyIXqBTdpeA2Tjz0Bn70mUKS2n76GiiP6xC24N579Jw"
+          alt=""
+        />
       </div>
+      <p className="date">August 23 - September 22</p>
       <ZodiacTwins
-        date="(August 23 - September 22)"
         personalityName="Micheal Jackson"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzhHss2FXs5J9_e6M-id8huJvPrzidkaxtPr6uwsGDcvLpacp7ow"
       />
@@ -163,12 +191,16 @@ const Personalities = () => {
       />
 
       {/* Libra Section */}
-    <div>
-        <h1>Libra</h1>
-        <img className="logo" src="https://cdn4.iconfinder.com/data/icons/horoscope-v2-outline/24/horoscope-horoscopes-sign-zodiac-stars-astrology-libra-512.png" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Libra</h1>
+        <img
+          className="logo"
+          src="https://cdn4.iconfinder.com/data/icons/horoscope-v2-outline/24/horoscope-horoscopes-sign-zodiac-stars-astrology-libra-512.png"
+          alt=""
+        />
+      </div>
+      <p>September 23 - October 22</p>
       <ZodiacTwins
-        date="(September 23 - October 22)"
         personalityName="Imran Khan"
         personalityImage="https://pbs.twimg.com/profile_images/1162267138842755075/zxLifsgg_400x400.jpg"
       />
@@ -189,13 +221,17 @@ const Personalities = () => {
       />
 
       {/* Scorpio Section */}
-      <div>
-          <h1>Scorpio</h1>
-          <img className="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGVjlsVxa_7n9Se-kTrY0_R4Lm8UpO-uCk0TQSIg0HEBaNXmK" alt="" />
+      <div className="set">
+        <h1 className="heading">Scorpio</h1>
+        <img
+          className="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHGVjlsVxa_7n9Se-kTrY0_R4Lm8UpO-uCk0TQSIg0HEBaNXmK"
+          alt=""
+        />
       </div>
+      <p>October 23 - November 21</p>
 
       <ZodiacTwins
-        date="(October 23 - November 21)"
         personalityName="Leonardo DiCarpio"
         personalityImage="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Leonardo_DiCaprio_January_2014.jpg/170px-Leonardo_DiCaprio_January_2014.jpg"
       />
@@ -216,12 +252,16 @@ const Personalities = () => {
       />
 
       {/* Sagittarius Section */}
-    <div>
-        <h1>Sagittarius</h1>
-        <img className="logo" src="https://icons-for-free.com/iconfiles/png/512/horoscope+sagittarius+shape+sign+zodiac+icon-1320085957614268876.png" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Sagittarius</h1>
+        <img
+          className="logo"
+          src="https://icons-for-free.com/iconfiles/png/512/horoscope+sagittarius+shape+sign+zodiac+icon-1320085957614268876.png"
+          alt=""
+        />
+      </div>
+      <p>November 22 - December 21</p>
       <ZodiacTwins
-        date="(November 22 - December 21)"
         personalityName="Taylor Swift"
         personalityImage="https://www.washingtonpost.com/resizer/Leif0SYhGT6qJTZ-b6ItOVYs8IU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QN5ZTFC2TQI6TGGUQRAIRUJV6I.jpg"
       />
@@ -242,12 +282,16 @@ const Personalities = () => {
       />
 
       {/* Capricorn Section */}
-    <div>
-        <h1>Capricorn</h1>
-        <img className="logo" src="https://icons-for-free.com/iconfiles/png/512/capricorn+horoscope+sign+zodiac+icon-1320085955943875975.png" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Capricorn</h1>
+        <img
+          className="logo"
+          src="https://icons-for-free.com/iconfiles/png/512/capricorn+horoscope+sign+zodiac+icon-1320085955943875975.png"
+          alt=""
+        />
+      </div>
+      <p>December 22 - January 19</p>
       <ZodiacTwins
-        date="(December 22 - January 19)"
         personalityName="LeBorn James"
         personalityImage="https://pm1.narvii.com/6828/0f27f967448cbecc652e99852add1d0e496848bav2_128.jpg"
       />
@@ -269,12 +313,17 @@ const Personalities = () => {
 
       {/* Aquarius Section */}
 
-    <div>
-        <h1>Aquarius</h1>
-        <img className="logo" src="https://cdn0.iconfinder.com/data/icons/zodiac-signs-vol-2/100/Artboard_22-512.png" alt=""/>
-    </div>
+      <div className="set">
+        <h1 className="heading">Aquarius</h1>
+        <img
+          className="logo"
+          src="https://cdn0.iconfinder.com/data/icons/zodiac-signs-vol-2/100/Artboard_22-512.png"
+          alt=""
+        />
+      </div>
+      <p>January 20 - February 18</p>
       <ZodiacTwins
-        date="(January 20 - February 18)"
+        
         personalityName="Christano Ronaldo"
         personalityImage="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"
       />
@@ -296,12 +345,16 @@ const Personalities = () => {
 
       {/* Pisces Section */}
 
-    <div>
-        <h1>Pisces</h1>
-        <img className="logo" src="https://i.pinimg.com/originals/06/fa/4c/06fa4c996c43e3e341ad3aba6a20b004.jpg" alt="" />
-    </div>
+      <div className="set">
+        <h1 className="heading">Pisces</h1>
+        <img
+          className="logo"
+          src="https://i.pinimg.com/originals/06/fa/4c/06fa4c996c43e3e341ad3aba6a20b004.jpg"
+          alt=""
+        />
+      </div>
+      <p>February 19 - March 20</p>
       <ZodiacTwins
-        date="(February 19 - March 20)"
         personalityName="Rihana"
         personalityImage="https://pbs.twimg.com/profile_images/1133109643734130688/BwioAwkz_200x200.jpg"
       />
