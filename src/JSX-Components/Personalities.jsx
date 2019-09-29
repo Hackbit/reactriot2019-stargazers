@@ -1,5 +1,5 @@
 import React from "react";
-import ZodiacTwins from "../JSX-Components/ZodiacTwins";
+import ZodiacTwins from "./ZodiacTwins";
 
 const Personalities = () => {
   return (
@@ -199,7 +199,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>September 23 - October 22</p>
+      <p className="date">September 23 - October 22</p>
       <ZodiacTwins
         personalityName="Imran Khan"
         personalityImage="https://pbs.twimg.com/profile_images/1162267138842755075/zxLifsgg_400x400.jpg"
@@ -229,7 +229,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>October 23 - November 21</p>
+      <p className="date">October 23 - November 21</p>
 
       <ZodiacTwins
         personalityName="Leonardo DiCarpio"
@@ -260,7 +260,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>November 22 - December 21</p>
+      <p className="date">November 22 - December 21</p>
       <ZodiacTwins
         personalityName="Taylor Swift"
         personalityImage="https://www.washingtonpost.com/resizer/Leif0SYhGT6qJTZ-b6ItOVYs8IU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QN5ZTFC2TQI6TGGUQRAIRUJV6I.jpg"
@@ -290,7 +290,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>December 22 - January 19</p>
+      <p className="date">December 22 - January 19</p>
       <ZodiacTwins
         personalityName="LeBorn James"
         personalityImage="https://pm1.narvii.com/6828/0f27f967448cbecc652e99852add1d0e496848bav2_128.jpg"
@@ -321,7 +321,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>January 20 - February 18</p>
+      <p className="date">January 20 - February 18</p>
       <ZodiacTwins
         
         personalityName="Christano Ronaldo"
@@ -353,7 +353,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p>February 19 - March 20</p>
+      <p className="date">February 19 - March 20</p>
       <ZodiacTwins
         personalityName="Rihana"
         personalityImage="https://pbs.twimg.com/profile_images/1133109643734130688/BwioAwkz_200x200.jpg"
