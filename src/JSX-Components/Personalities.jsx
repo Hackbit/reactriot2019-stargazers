@@ -15,7 +15,7 @@ const Personalities = () => {
         />
         </div>
         <p className="date">(March21- April19)</p>
-      </div>
+      
       {/* Aries Section */}
       
       <ZodiacTwins
@@ -38,8 +38,8 @@ const Personalities = () => {
         personalityName="Celine Dion"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ip6A7sDddPY3sXPQQsSBeTIRz36wuapQMqN9EPLzdmrVmQ24Pg"
       />
-      
 
+      
       {/* Taurus Section */}
       <div className="set">
         <h1 className="heading">Taurus</h1>
@@ -375,7 +375,10 @@ const Personalities = () => {
         personalityName="Alex Kingston"
         personalityImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6kuA3e7haIWNs8xZxRwmtGKvspiAvE1NPMV43xpvlTiIUBj70Q"
       />
+      </div>
+
     </div>
+  
   );
 };
 

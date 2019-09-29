@@ -8,6 +8,7 @@
     height: 100%;
 }
 
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -39,16 +40,14 @@ code {
     margin: 0;
     padding: 0;
     display: inline-flex;
-    justify-content: cent0ner;
+    justify-content: center;
     align-items: center;
-    /* min-height: 100vh;  */
     font-family: sans-serif;
 }
 
 .box {
-    /* width: 1200px;  */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     grid-gap: 15px;
     margin: 0 auto;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Personalities from './JSX-Components/Personalities';
+import Personalities from '../src/JSX-Components/Personalities';
 
 function App() {
   return (
