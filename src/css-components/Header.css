@@ -13,3 +13,6 @@
 .Nav p:hover{
     border-bottom: 1px solid white;
 }
+.Nav{
+    background-color: #ffffff17;
+}
