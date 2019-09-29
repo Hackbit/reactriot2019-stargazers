@@ -9,8 +9,6 @@ export default function ZodiacBook(props) {
 
             <figure style={{backgroundImage: `url(${props.imgURL})`}}>
 
-                {/* <img src={require('./../../assets/zodiacBooksImages/' + props.imgURL)} alt={props.name}></img> */}
-
                 <figcaption style={{ backgroundColor: props.color }}>
 
                     <h3>{props.name}</h3>

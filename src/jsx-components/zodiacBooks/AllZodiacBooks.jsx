@@ -18,7 +18,11 @@ export default function AllZodiacBooks() {
     return (
         <div className="AllZodiacBooks">
 
-            <Header />
+            <div className="header">
+
+                <Header />
+                
+            </div>
 
             <div className="books">
 

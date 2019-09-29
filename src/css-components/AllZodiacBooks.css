@@ -1,4 +1,4 @@
-.AllZodiacBooks{
+.AllZodiacBooks {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,11 @@
     background-size: 100% 100%;
 }
 
-.books{
+.header {
+    width: 100%;
+}
+
+.books {
     width: 80%;
     flex-wrap: wrap;
     display: flex;
