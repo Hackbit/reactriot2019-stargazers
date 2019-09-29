@@ -96,6 +96,12 @@ input {
     padding: 30px;
     color: white;
     word-spacing: 3px;
+    background-color: #3e2e2e6b;
+    filter: drop-shadow(2px 4px 6px black);
+}
+h1{
+    font-size:3em;
+    margin: 5px;
 }
 
 .wrapper {
