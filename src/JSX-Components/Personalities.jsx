@@ -323,7 +323,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">January 20 - February 18</p>
+      <p className="date">(January 20 - February 18)</p>
       <ZodiacTwins
         
         personalityName="Christano Ronaldo"
@@ -355,7 +355,7 @@ const Personalities = () => {
           alt=""
         />
       </div>
-      <p className="date">February 19 - March 20</p>
+      <p className="date">(February 19 - March 20)</p>
       <ZodiacTwins
         personalityName="Rihana"
         personalityImage="https://pbs.twimg.com/profile_images/1133109643734130688/BwioAwkz_200x200.jpg"
