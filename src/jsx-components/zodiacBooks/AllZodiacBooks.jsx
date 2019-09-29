@@ -12,6 +12,7 @@ import SagittariusBook from './SagittariusBook';
 import CapricornBook from './CapricornBook';
 import AquariusBook from './AquariusBook';
 import PiscesBook from './PiscesBook';
+import Header from './../Header';
 
 export default function AllZodiacBooks() {
     return (
