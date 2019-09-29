@@ -1,5 +1,5 @@
 import React from 'react';
-import '..components/ZodiacTwins.css';
+import '../css-components/ZodiacTwins.css';
 
 const ZodiacTwins = props => {
     return (
