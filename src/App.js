@@ -13,6 +13,8 @@ import LandingPage from './jsx-components/LandingPage';
 import MainPage from './jsx-components/MainPage';
 import PageNotFound from './jsx-components/404';
 import ZodiacSigns from './jsx-components/ZodiacSigns';
+import AllZodiacBooks from './jsx-components/AllZodiacBooks';
+import ZodiacTwins from './jsx-components/ZodiacTwins';
 
 class App extends Component {
   render() {
@@ -24,12 +26,14 @@ class App extends Component {
           <Route exact path="/MainPage" component={MainPage} />
           <Route exact path="/ZodiacSigns" component={ZodiacSigns} />
           <Route exact path="/AllZodiacBooks" component={AllZodiacBooks} />
+          <Route exact path="/ZodiacTwins" component={ZodiacTwins} />
           <Route exact path="/404" component={PageNotFound} />
-          <Redirect to="/404"/>
+          <Redirect to="/404" />
         </Switch>
       </Router>
     );
   }
+
 }
 
 export default App;
