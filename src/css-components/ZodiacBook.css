@@ -6,7 +6,7 @@
 
 .ZodiacBook {
     perspective: 1000px;
-    width: 18%;
+    width: 25%;
     margin: 2em;
     text-decoration: none;
 }
@@ -43,19 +43,6 @@
     line-height: 3;
 }
 
-.ZodiacBook figure:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.1), inset 0 0 250px 250px rgba(0, 0, 0, 0.1);
-    transition: 1s;
-    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
-    transform-origin: inherit;
-}
-
 .ZodiacBook:hover figure {
     transform: rotateX(75deg) translateZ(5vw);
 }
@@ -67,13 +54,13 @@
 
 @media screen and (max-width: 800px) {
     .ZodiacBook {
-        width: 40%;
+        width: 30%;
     }
     .ZodiacBook figure {
-        height: 34.5vw;
+        height: 26vw;
     }
     .ZodiacBook figure figcaption {
-        top: 34.5vw;
+        top: 26vw;
     }
 }
 

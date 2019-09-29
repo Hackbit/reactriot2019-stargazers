@@ -17,18 +17,24 @@ export default function AllZodiacBooks() {
     return (
         <div className="AllZodiacBooks">
 
-            <AriesBook />
-            <TaurusBook />
-            <GeminiBook />
-            <CancerBook />
-            <LeoBook />
-            <VirgoBook />
-            <LibraBook />
-            <ScorpioBook />
-            <SagittariusBook />
-            <CapricornBook />
-            <AquariusBook />
-            <PiscesBook />
+            {/* <Header /> */}
+
+            <div className="books">
+
+                <AriesBook />
+                <TaurusBook />
+                <GeminiBook />
+                <CancerBook />
+                <LeoBook />
+                <VirgoBook />
+                <LibraBook />
+                <ScorpioBook />
+                <SagittariusBook />
+                <CapricornBook />
+                <AquariusBook />
+                <PiscesBook />
+
+            </div>
 
         </div>
     );
