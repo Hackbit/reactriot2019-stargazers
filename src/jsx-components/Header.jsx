@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <div className="Nav">
             <Link to="/ZodiacSigns"><p>All About Start Signs</p></Link>
-            <Link to="/404"><p>Your Star Twin</p></Link>
+            <Link to="/ZodiacTwins"><p>Your Star Twin</p></Link>
             <Link to="/AllZodiacBooks"><p>Book for your Star Sign</p></Link>
         </div>
         );
