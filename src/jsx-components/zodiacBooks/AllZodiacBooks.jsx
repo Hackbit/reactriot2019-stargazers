@@ -1,4 +1,4 @@
-import React from './node_modules/react';
+import React from 'react';
 import './../../css-components/AllZodiacBooks.css';
 import AriesBook from './AriesBook';
 import TaurusBook from './TaurusBook';

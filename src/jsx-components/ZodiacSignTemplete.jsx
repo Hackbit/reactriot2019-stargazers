@@ -1,6 +1,6 @@
-import React from './node_modules/react';
+import React from 'react';
 import '../css-components/ZodiacSignTemplete.css';
-import PropTypes from './node_modules/prop-types';
+import PropTypes from 'prop-types';
 
 function ZodiacSignTemplete(props) {
     return (

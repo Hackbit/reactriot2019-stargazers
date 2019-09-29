@@ -1,4 +1,4 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import ZodiacSignTemplete from './ZodiacSignTemplete';
 import Header from './Header';
 import '../css-components/ZodiacSigns.css';
