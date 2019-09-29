@@ -16,3 +16,11 @@
 .Nav{
     background-color: #ffffff17;
 }
+
+@media (max-width: 500px) {
+    .Nav p{
+        font-size: 1em;
+        text-align: center;
+    }
+
+}
