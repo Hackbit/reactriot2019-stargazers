@@ -16,4 +16,9 @@ code {
   position: fixed;
   bottom: 0;
   width: 100%;
+
+}
+.hb-vote-widget {
+
+  background: #533b2c;
 }
